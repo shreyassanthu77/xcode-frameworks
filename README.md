@@ -8,7 +8,9 @@ All symlinks are realized to their actual file contents to improve compatibility
 
 ## Updating
 
-To update this repository, run `./update.sh` on a macOS host machine with XCode installed followed by `./verify.sh` to verify the repository contents.
+To regenerate the contents of this repository from your own macOS XCode installation (requires the same version currently in this repository), run `./generate.sh`.
+
+To update the contents of this repository to the latest XCode installation on your mac, run `./update.sh` then `./generate.sh`
 
 ## Verifying repository contents
 
